@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Manuel App",
+    "slug": "manuel-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.emmanuelvidel.manuelapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.emmanuelvidel.manuelapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Manuel App to access your camera",
+          "microphonePermission": "Allow Manuel App to access your microphone"
+        }
+      ]
+    ]
+  }
+}
